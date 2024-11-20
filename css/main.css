@@ -27,7 +27,7 @@ body {
   border-radius: 1rem;
 }
 
-.content__title {
+.content_title {
   margin: 1rem;
   text-align: center;
 }
@@ -38,7 +38,7 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.search__input {
+.search_input {
   flex: 1;
   padding: 1rem;
   font-size: 1rem;
@@ -59,7 +59,7 @@ body {
     "avatar bio";
 }
 
-.result__toggle-favorite {
+.result_toggle-favorite {
   position: absolute;
   top: 0.3rem;
   right: 0.3rem;
@@ -69,29 +69,29 @@ body {
   padding: 0.4rem;
 }
 
-.result__name {
+.result_name {
   grid-area: name;
   margin: 0.4rem 0;
 }
 
-.result__avatar {
+.result_avatar {
   grid-area: avatar;
   max-width: 6rem;
   height: auto;
   border-radius: 1rem;
 }
 
-.result__bio {
+.result_bio {
   grid-area: bio;
   margin: 0;
 }
 
-.result__blog {
+.result_blog {
   grid-area: blog;
   color: goldenrod;
 }
 
-.result__error {
+.result_error {
   padding: 0.3rem;
   background-color: tomato;
   color: white;
@@ -112,12 +112,12 @@ body {
   transition: transform 0.3s ease-out;
 }
 
-.favorite__avatar {
+.favorite_avatar {
   height: 5rem;
   margin: 0.3rem;
 }
 
-.favorite--selected {
+.favorite_selected {
   transform: scale(1.3);
 }
 
