@@ -132,6 +132,8 @@ body {
   opacity: 0;
 }
 
+/* transitions for arrays:
+
 .list-move, /* apply transition to moving elements */
 .list-enter-active,
 .list-leave-active {
